@@ -1,5 +1,12 @@
+import Navbar from "./app_components/navbar";
+
 function App() {
-  return <div>Office Name</div>;
+  return (
+    <div>
+      <Navbar username={username}/>
+      Office Name
+    </div>
+  );
 }
 
 export default App;
