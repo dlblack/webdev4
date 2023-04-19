@@ -3,7 +3,7 @@ import Navbar from "./app_components/navbar";
 function App() {
   return (
     <div>
-      <Navbar username={username}/>
+      <Navbar />
       Office Name
     </div>
   );

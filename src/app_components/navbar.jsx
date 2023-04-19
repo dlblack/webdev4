@@ -11,7 +11,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Dead in the Water
+          Dead Water
         </a>
         <button
           className="navbar-toggler"
@@ -32,6 +32,7 @@ function Navbar() {
             <li className="nav-item">
               <a className="nav-link active" href="#">
                 Home
+                <span className="visually-hidden">(current)</span>
               </a>
             </li>
           </ul>
