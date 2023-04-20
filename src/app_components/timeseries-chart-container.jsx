@@ -1,7 +1,7 @@
-import Chart from "./chart";
 import useAPI from "../app_hooks/useAPI";
 import Loader from "./loader";
 import { useState } from "react";
+import TimeseriesChart from "./timeseries-chart";
 
 function TimeseriesChartContainer({ location }) {
   const [tsChecked, setTsChecked] = useState("");
@@ -50,7 +50,7 @@ function TimeseriesChartContainer({ location }) {
         </div>
       </div>
       <div className="col-9">
-        <Chart data={data} />;
+        <TimeseriesChart tsName={tsChecked} office={location["office-id"]} />
       </div>
     </>
   );
